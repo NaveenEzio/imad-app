@@ -17,6 +17,9 @@ app.get('/articleone',function(req, res) {
     res.send('This is my first wep app devlopment');
 });
 
+app.get('/newpath',function(req,res) {
+    res.send('new path is set');
+});
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
