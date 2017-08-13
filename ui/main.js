@@ -3,15 +3,15 @@ console.log('Loaded!');
 
 var img = document.getElementById('1img');
 
-var marginRight =0;
+var marginLeft =0;
 function moveRight()
 {
-    marginRight = marginRight + 10;
-    img.style.marginRight = margin.Right + px;
+    marginLeft = marginLeft + 10;
+    img.style.marginLeft = marginLeft + px;
 }
 
 
 img.onclick =function(){
     //img.style.marginRight = "100px" ;
-    var interval = setInterval(moveRight, 50);
+    var interval = setInterval(moveRight, 100);
 }
