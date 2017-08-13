@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 
 var img = document.getElementById('1img');
-var marginRight =0;
+var moveRight =0;
 function moveRight()
 {
     marginRight = marginRight +10;
