@@ -1,10 +1,8 @@
 console.log('Loaded!');
 
 
-var img = document.getElementById('1img') ;
+var img = document.getElementById('1img');
 
- img.onclick =  fuction() {
-    
-    img.style.marginLeft = '100px';
-    
-};
+img.onclick =function(){
+    img.style.marginLeft = "100px" ;
+}
